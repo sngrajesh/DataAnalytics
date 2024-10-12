@@ -192,6 +192,7 @@ print(temp3.shape, temp3.dtype)
 
 
 
+# print("\n34. Write a NumPy program to create a three-dimension array with shape (3,5,4) and set to a variable.")
 print("\n34. Write a NumPy program to create a three-dimension array with shape (3,5,4) and set to a variable.")
 shape = (3,5,4)
 arr23 = np.arange(1,shape[0]*shape[1]*shape[2]+1).reshape(shape)
